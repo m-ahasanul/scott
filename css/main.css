@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.219),rgba(0, 0, 0, 0.219)), url(../images/space-3262811_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    padding: 8px 8px;
+    border-bottom: 1px solid #949393;
+}
+
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home-content h2{
+    font-size: 4.3rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.home-content p{
+    font-size: 1.3rem;
+    color: #d6d6d6;
+}
+
+
+.box img{
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+}
+
+.box-1{
+    position: relative;
+    bottom: 80px;
+    left: 80px;
+}
+
+.box-2{
+    position: absolute;
+    left: 40px;
+    top: 110px;
+    box-shadow: #949393 0.7;
+}
+
+.box-3{
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+.rainbow-5:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #E7484F 16.65%,
+       #F68B1D 16.65%,
+       #F68B1D 33.3%,
+       #FCED00 33.3%,
+       #FCED00 49.95%,
+       #009E4F 49.95%,
+       #009E4F 66.6%,
+       #00AAC3 66.6%,
+       #00AAC3 83.25%,
+       #732982 83.25%,
+       #732982 100%,
+       #E7484F 100%)
+    }
